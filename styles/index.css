@@ -1,0 +1,78 @@
+* {
+  font-family: 'Comic Neue', cursive;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.full-screen {
+  min-height: 100vh;
+}
+
+.not-full-screen {
+  position: relative;
+  top: 15px;
+}
+
+.nav-link {
+  color: #eeeeee;
+}
+
+.nav-link:hover {
+  color: #111111;
+}
+
+.bg-navbar {
+  background: linear-gradient(180deg,#00537E 40%,#3AA17E 180%);
+  box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.me {
+  font-size: 1.4rem;
+  color: #00537E;
+  font-weight: 900;
+}
+
+.image {
+  max-height: 40vh;
+  max-width: 40vw;
+  left: 30px;
+  top: 10px;
+  position: relative;
+  z-index: -2;
+  border: 4px solid #00537E;
+  border-radius: 45%;
+}
+
+.social-media {
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+}
+
+.green {
+  color: green;
+}
+
+.under-line {
+  text-decoration: underline;
+}
+
+.contact {
+  width: fit-content;
+}
+
+.card h4{
+  text-decoration: none;
+}
+
+.card-img {
+  object-fit: cover;
+}
+
